@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({generoMusical, cancion}) => {
+
   return (
-    <div>Hola!!</div>
+    <div>
+      <h3>Wow! Tu genero musical favorito es {generoMusical}</h3>
+      <h3>Y la canción que no dejas de escuhar es {cancion}</h3>
+    </div>
   )
 }
 
