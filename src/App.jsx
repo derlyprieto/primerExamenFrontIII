@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import Card from './Components/Card'
 import Form from './Components/Form'
 
 function App() {
 
   return (
     <div className="App">
+      <h1>BIENVENIDO A MUSIC WORLD</h1>
       <Form/>
     </div>
   )
